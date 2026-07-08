@@ -117,7 +117,7 @@
   .card:hover{border-color:var(--accent);}
   .sig{display:flex;gap:14px;align-items:flex-start;background:var(--card-bg);border:1px solid var(--line);border-radius:9px;padding:14px 16px;margin-bottom:12px;transition:.15s;}
   .sig:hover{border-color:var(--accent);}
-  .sig-num{flex:0 0 30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;}
+  .sig-num{flex:0 0 auto;color:var(--ink-soft);font-weight:600;font-size:calc(14px*var(--fs));line-height:1.4;}
   .sig-body{flex:1;}
   .sig-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:5px;}
   .sig-title{font-size:calc(17px*var(--fs));font-weight:700;margin:0;}
@@ -127,7 +127,7 @@
   .sig-timestamp{font-size:11px;color:var(--ink-soft);}
   .sig-text{margin:6px 0 0;font-size:calc(14px*var(--fs));}
   .sig-zh{margin-top:4px;font-size:calc(13px*var(--fs));color:var(--ink-soft);line-height:1.45;}
-  .sig-voice{margin-top:8px;font-size:calc(13px*var(--fs));color:var(--ink-soft);font-style:italic;border-left:3px solid var(--accent);padding-left:10px;}
+  .sig-voice{margin-top:8px;font-size:calc(13px*var(--fs));color:var(--ink-soft);border-left:3px solid var(--accent);padding-left:10px;}
   .tag{display:inline-block;background:var(--accent-soft);color:var(--accent);font-size:calc(12px*var(--fs));padding:2px 9px;border-radius:20px;margin-right:4px;}
   .tag-teal{background:#e6fffb;color:#0d9488;}
   .tag-indigo{background:#eef2ff;color:#4f46e5;}
@@ -147,7 +147,7 @@
   th{background:var(--accent-soft);color:var(--accent);font-size:calc(12px*var(--fs));}
   .rank-row{display:flex;align-items:center;gap:12px;background:var(--card-bg);border:1px solid var(--line);border-radius:9px;padding:12px 14px;margin-bottom:8px;transition:.15s;}
   .rank-row:hover{border-color:var(--accent);}
-  .rank-no{flex:0 0 26px;height:26px;border-radius:50%;border:2px solid var(--accent);color:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;}
+  .rank-no{flex:0 0 auto;color:var(--ink-soft);font-weight:600;font-size:calc(13px*var(--fs));line-height:1.4;}
   .rank-main{flex:1;}
   .rank-src{font-size:calc(12px*var(--fs));color:var(--ink-soft);}
   .rank-views{font-size:calc(12px*var(--fs));color:var(--accent);font-weight:600;}
@@ -1140,6 +1140,27 @@
             <div class="rank-row">
               <div class="rank-no">6</div>
               <div class="rank-main"><div><a class="sig-link" href="http://arxiv.org/abs/2607.06562v1" target="_blank" rel="noopener">Minimum Energies and Magnetic Field Strengths of Edge-brightened Compact Symmetric Objects<svg class="ext-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="sig-zh">边缘变亮的紧凑对称物体的最小能量和磁场强度</div></div></div>
+              <div class="rank-views"><svg class="eye-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> —</div>
+            </div>
+            
+          
+            <div style="font-weight:700;margin:10px 0 6px;">爆款 & 低粉高赞 · 爆款</div>
+            
+            <div class="rank-row">
+              <div class="rank-no">1</div>
+              <div class="rank-main"><div><a class="sig-link" href="https://www.yunyingpai.com/product-operation/1059889.html" target="_blank" rel="noopener">扒了上百条ai爆款视频，我们得出了6点观察 | 运营派<svg class="ext-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+              <div class="rank-views"><svg class="eye-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> —</div>
+            </div>
+            
+            <div class="rank-row">
+              <div class="rank-no">2</div>
+              <div class="rank-main"><div><a class="sig-link" href="https://www.msn.cn/zh-cn/entertainment/%E9%80%9A%E7%94%A8/ai%E8%A7%86%E9%A2%91%E7%94%9F%E6%80%81%E5%85%A8%E6%99%AF%E6%89%AB%E6%8F%8F-%E4%BB%8E%E7%88%86%E6%AC%BE%E9%80%BB%E8%BE%91%E5%88%B0%E5%8F%98%E7%8E%B0%E5%9B%B0%E5%B1%80%E7%9A%84%E5%85%AD%E5%A4%A7%E6%B4%9E%E5%AF%9F/ar-AA22508A" target="_blank" rel="noopener">AI视频生态全景扫描：从爆款逻辑到变现困局的六大洞察<svg class="ext-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
+              <div class="rank-views"><svg class="eye-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> —</div>
+            </div>
+            
+            <div class="rank-row">
+              <div class="rank-no">3</div>
+              <div class="rank-main"><div><a class="sig-link" href="https://field.10jqka.com.cn/20260417/c676056988.shtml" target="_blank" rel="noopener">中国AI视频如何火&quot;出圈&quot;？<svg class="ext-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></div></div>
               <div class="rank-views"><svg class="eye-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> —</div>
             </div>
             
